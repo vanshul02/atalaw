@@ -1,22 +1,32 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import PracticeAreas from "./components/PracticeAreas";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import React from 'react';
 
-function App() {
+// import component
+import useDisclaimer from "./hooks/useDisclaimer";
+import DisclaimerModal from "./components/DisclaimerModal";
+import Banner from './components/Banner'
+import Skills from './components/Skills';
+import Newsletter from './components/Newsletter';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+
+const App = () => {
+  const { showModal, handleAgree, handleDisagree } = useDisclaimer();
+
   return (
-    <div className="text-gray-900 bg-white">
-      <Navbar />
-      <Hero />
-      <About />
-      <PracticeAreas />
-      <Contact />
-      <Footer />
+    <div className="relative">
+      <div className={showModal ? "blur-sm pointer-events-none" : ""}>
+        <Banner />
+        <Skills />
+        <Newsletter />
+        <Contact />
+        <Footer />
+      </div>
+
+      {showModal && (
+        <DisclaimerModal onAgree={handleAgree} onDisagree={handleDisagree} />
+      )}
     </div>
-  );
-}
+  )
+};
 
 export default App;
