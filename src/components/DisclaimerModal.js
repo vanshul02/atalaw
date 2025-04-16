@@ -4,7 +4,7 @@ import React from "react";
 const DisclaimerModal = ({ onAgree, onDisagree }) => {
     return (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-            <div className="bg-white p-8 rounded-xl shadow-xl max-w-2xl text-center">
+            <div className="bg-white p-8 rounded-xl shadow-xl max-w-full sm:max-w-2xl text-center">
                 <h2 className="text-2xl font-semibold text-accent mb-4">Disclaimer</h2>
                 <p className="text-gray-700 mb-6 text-justify">
                     As per the rules of the Bar Council of India, law firms are not permitted to solicit work and advertise. By clicking on the “I AGREE” button below, user acknowledges the following:

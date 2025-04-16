@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <div className="relative">
-      <div className={showModal ? "blur-sm pointer-events-none" : ""}>
+      <div className={showModal ? "pointer-events-none" : ""}>
         <Banner />
         <Skills />
         <Newsletter />
