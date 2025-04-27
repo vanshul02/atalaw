@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/atalaw/static/css/main.f52640e1.css",
-    "main.js": "/atalaw/static/js/main.815bb756.js",
+    "main.css": "/atalaw/static/css/main.255a6937.css",
+    "main.js": "/atalaw/static/js/main.d7ef206d.js",
     "static/media/logo1.png": "/atalaw/static/media/logo1.132d088606d4bf385dbb.png",
+    "static/media/mail.png": "/atalaw/static/media/mail.2c378c9ee25927123f7d.png",
     "index.html": "/atalaw/index.html",
-    "main.f52640e1.css.map": "/atalaw/static/css/main.f52640e1.css.map",
-    "main.815bb756.js.map": "/atalaw/static/js/main.815bb756.js.map"
+    "main.255a6937.css.map": "/atalaw/static/css/main.255a6937.css.map",
+    "main.d7ef206d.js.map": "/atalaw/static/js/main.d7ef206d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f52640e1.css",
-    "static/js/main.815bb756.js"
+    "static/css/main.255a6937.css",
+    "static/js/main.d7ef206d.js"
   ]
 }
