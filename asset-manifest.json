@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/atalaw/static/css/main.2e553a0d.css",
-    "main.js": "/atalaw/static/js/main.d9dfec3e.js",
-    "static/media/skill1.png": "/atalaw/static/media/skill1.04502567074b8cd980e1.png",
-    "static/media/skill4.png": "/atalaw/static/media/skill4.d5adc339bcedb6d2abbc.png",
-    "static/media/skill6.png": "/atalaw/static/media/skill6.685cf9f2f25b1d561cef.png",
-    "static/media/skill3.png": "/atalaw/static/media/skill3.d514e23cd962fec88438.png",
-    "static/media/skill5.png": "/atalaw/static/media/skill5.4b0818f5ad43f3dd96eb.png",
-    "static/media/skill2.png": "/atalaw/static/media/skill2.e3ae2ceb4884b0bc30ba.png",
-    "static/media/logo1.png": "/atalaw/static/media/logo1.132d088606d4bf385dbb.png",
-    "static/media/mail.png": "/atalaw/static/media/mail.2c378c9ee25927123f7d.png",
-    "index.html": "/atalaw/index.html",
-    "main.2e553a0d.css.map": "/atalaw/static/css/main.2e553a0d.css.map",
-    "main.d9dfec3e.js.map": "/atalaw/static/js/main.d9dfec3e.js.map"
+    "main.css": "/static/css/main.2e553a0d.css",
+    "main.js": "/static/js/main.d2ac0954.js",
+    "static/media/skill1.png": "/static/media/skill1.04502567074b8cd980e1.png",
+    "static/media/skill4.png": "/static/media/skill4.d5adc339bcedb6d2abbc.png",
+    "static/media/skill6.png": "/static/media/skill6.685cf9f2f25b1d561cef.png",
+    "static/media/skill3.png": "/static/media/skill3.d514e23cd962fec88438.png",
+    "static/media/skill5.png": "/static/media/skill5.4b0818f5ad43f3dd96eb.png",
+    "static/media/skill2.png": "/static/media/skill2.e3ae2ceb4884b0bc30ba.png",
+    "static/media/logo1.png": "/static/media/logo1.132d088606d4bf385dbb.png",
+    "static/media/mail.png": "/static/media/mail.2c378c9ee25927123f7d.png",
+    "index.html": "/index.html",
+    "main.2e553a0d.css.map": "/static/css/main.2e553a0d.css.map",
+    "main.d2ac0954.js.map": "/static/js/main.d2ac0954.js.map"
   },
   "entrypoints": [
     "static/css/main.2e553a0d.css",
-    "static/js/main.d9dfec3e.js"
+    "static/js/main.d2ac0954.js"
   ]
 }
