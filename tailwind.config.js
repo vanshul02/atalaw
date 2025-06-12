@@ -2,7 +2,7 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Playfair Display',
+      primary: 'Garamond',
       body: 'Open Sans',
     },
     screens: {
@@ -20,8 +20,10 @@ module.exports = {
         },
 
         accent: {
-          DEFAULT: '#CF9455',
-          hover: '#BB864E',
+          // DEFAULT: '#CF9455',
+          DEFAULT: '#B89C5A',
+          hover: '#B89C5A',
+          // hover: '#BB864E',
         },
 
         gray: '#766F66',

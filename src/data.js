@@ -12,8 +12,16 @@ import FacebookIcon from '../src/assets/img/social/facebook.png';
 import TwitterIcon from '../src/assets/img/social/twitter.png';
 import InstagramIcon from '../src/assets/img/social/instagram.png';
 import YoutubeIcon from '../src/assets/img/social/youtube.png';
-import PinterestIcon from '../src/assets/img/social/pinterest.png';
+import MailIcon from '../src/assets/img/social/mail.png';
+import CallIcon from '../src/assets/img/social/call.png';
+import OfficeIcon from '../src/assets/img/social/office.png';
 
+
+export const icons = {
+  mail: MailIcon,
+  call: CallIcon,
+  office: OfficeIcon,
+}
 // navigation data
 export const navigation = [
   {
@@ -21,7 +29,7 @@ export const navigation = [
     href: 'home',
   },
   {
-    name: 'What we do',
+    name: 'Practice Areas',
     href: 'skills',
   },
   {
@@ -35,39 +43,39 @@ export const navigation = [
 export const skills = [
   {
     icon: Skill1,
-    title: 'Corruption',
+    title: 'Company Law',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Advising on incorporation, governance, compliance, and regulatory matters under company law.',
   },
   {
     icon: Skill2,
-    title: 'Employment',
+    title: 'Direct Tax',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Advising on income tax planning, assessments, appeals, and compliance with applicable tax laws.',
   },
   {
     icon: Skill3,
-    title: 'Real Estate',
+    title: 'Intellectual Property Rights',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Advising on registration, enforcement, and protection of trademarks, copyrights, and designs before relevant authorities.',
   },
   {
     icon: Skill4,
-    title: 'Taxes',
+    title: 'Insolvency Law',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Advising on restructuring, liquidation, bankruptcy, and creditor rights under insolvency regulations.',
   },
   {
     icon: Skill5,
-    title: 'Corporate',
+    title: 'Property Law',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Advising on compliance, registration, dispute resolution, and regulatory matters under the RERA, 2016.',
   },
   {
     icon: Skill6,
-    title: 'Banking',
+    title: 'Consumer Protection',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Advising on consumer rights, filing complaints, dispute resolution, and representation before Consumer Courts and Forums.',
   },
 ];
 
@@ -85,8 +93,5 @@ export const social = [
   },
   {
     icon: YoutubeIcon,
-  },
-  {
-    icon: PinterestIcon,
-  },
+  }
 ];
