@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 const App = () => {
   const { showModal, handleAgree, handleDisagree } = useDisclaimer();
-
+  console.log("Last Updated at 13/06/2025 10:25 IST");
   return (
     <div className="relative">
       <div className={showModal ? "pointer-events-none" : ""}>
@@ -21,7 +21,6 @@ const App = () => {
         <Contact />
         <Footer />
       </div>
-
       {showModal && (
         <DisclaimerModal onAgree={handleAgree} onDisagree={handleDisagree} />
       )}

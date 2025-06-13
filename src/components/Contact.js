@@ -65,7 +65,7 @@ const Contact = () => {
 
 
             <p className='text-sm italic text-justify'>
-              We maintain strict confidentiality and ensure that all your queries are handled with utmost professionalism and discretion. <br />This email address is for Firm's internal use and convenience of clients. The Firm does not accept service of legal proceedings, correspondence etc on this email address as it is not accessed on a continued basis. Any such service is requested to be done by hand delivery at our office address.</p>
+              We maintain strict confidentiality and ensure that all your queries are handled with utmost professionalism and discretion.</p>
           </div>
 
           <div className='flex item-center justify-between mx-auto w-[10rem]'>
