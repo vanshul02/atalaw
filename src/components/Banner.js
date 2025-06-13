@@ -15,7 +15,7 @@ const Banner = () => {
             lg:mt-[70px] leading-tight lg:leading-[90px]'>
             WELCOME TO<br /> <span className='text-accent'>ATA Law Partners & Associates</span>
           </h1>
-          <p className='max-w-5xl text-xl mx-auto mb-[50px] text-accent
+          <p className='max-w-5xl text-xl mx-auto lg:mb-[50px] text-accent
               lg:max-0 '>
             <p className='text-2xl'>Strategic Legal Advisory | Expert Representation | Specializing in IPR and Corporate Law <br /></p>
             <br /><br />
