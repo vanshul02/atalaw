@@ -56,7 +56,7 @@ const Contact = () => {
           <div className='text-left max-w-[540px] mx-auto px-6 lg:px-0 mb-[64px]'>
             <p className='text-3xl'>How to Reach Us</p> <br />
             <p className='flex items-center gap-2'> <img src={icons.mail} alt="mail icon" width="20rem" /><a href="mailto:contact@atalaw.in">contact@atalaw.in</a></p>
-            <p className='flex items-center gap-2'> <img src={icons.call} alt="mail icon" width="20rem" />+91-8890397826</p>
+            <p className='flex items-center gap-2'> <img src={icons.call} alt="mail icon" width="20rem" />0141-3656523</p>
             <p className='flex items-start gap-2'> <img className='mt-1' src={icons.office} alt="mail icon" width="20rem" />2nd Floor, A-38, Guru Sadhan, Sukhija Vihar, Vaishali Nagar, Jaipur, 302026</p> <br />
             <p>Office Hours: </p>
             <p>Monday to Friday - 10:00 AM to 6:00 PM</p>
